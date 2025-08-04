@@ -11,6 +11,8 @@ import LoginPopup from "./loginPopup";
 import Sidebar from "./header/sideBar";
 import ChangePassword from "./changePassword";
 import EditPersonalInfo from "./editPersonalInfo";
+import ChannelHeader from "./channel/channelHeader";
+import ChannelNavigate from "./channel/channelNavigate";
 import SearchForSmallScreen from "./searchForSmallScreen";
 
 export {
@@ -25,7 +27,9 @@ export {
 	Sidebar,
         AuthLayout,
 	LoginPopup,
+	ChannelHeader, 
 	ChangePassword, 
+	ChannelNavigate,
 	EditPersonalInfo, 
         SearchForSmallScreen,
 };
