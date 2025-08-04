@@ -72,4 +72,8 @@ export {
 	NoSubscribersFound,
 	NoSubscriptionFound,
         SearchForSmallScreen,
+	CommentList,
+	Video,
+	Description,
+	InfiniteScroll,
 };
