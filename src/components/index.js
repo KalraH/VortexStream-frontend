@@ -8,9 +8,9 @@ import SignUp from "./signUp";
 import Button from "./button";
 import Layout from "../layout";
 import VideoList from "./videoList";
-import TweetsList from "./tweetsList";
 import Navbar from "./header/navBar";
 import Search from "./header/search";
+import TweetsList from "./tweetsList";
 import AuthLayout from "./authLayout";
 import LoginPopup from "./loginPopup";
 import Sidebar from "./header/sideBar";
@@ -25,7 +25,6 @@ import NoSubscribersFound from "../components/noSubscriberFound";
 import DeleteConfirmation from "../components/deleteConfirmation";
 import NoSubscriptionFound from "../components/noSubscriptionFound";
 
-
 export {
         Logo,
 	Like, 
@@ -39,11 +38,18 @@ export {
         Search,
 	Layout, 
 	Sidebar,
+        Spinner,
+        EditVideo,
 	VideoList,
+        Container,
 	TweetsList,
+        VideoTable,
         AuthLayout,
 	LoginPopup,
+        UploadVideo,
+        StatsSection,
 	NoVideosFound, 
+        HeaderSection,
 	ChannelHeader, 
 	ChangePassword, 
 	ChannelNavigate,
