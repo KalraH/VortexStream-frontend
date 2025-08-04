@@ -15,6 +15,7 @@ import VideoList from "./videoList";
 import Container from "./container";
 import Navbar from "./header/navBar";
 import Search from "./header/search";
+import EditAvatar from "./editAvatar";
 import TweetsList from "./tweetsList";
 import AuthLayout from "./authLayout";
 import LoginPopup from "./loginPopup";
@@ -24,6 +25,7 @@ import UploadVideo from "./uploadVideo";
 import CommentList from "./commentsList";
 import NoVideosFound from "./noVideoFound";
 import TogglePublish from "./togglePublish";
+import UploadingVideo from "./uploadingVideo";
 import InfiniteScroll from "./infiniteScroll";
 import ChangePassword from "./changePassword";
 import TweetAndComment from "./tweetAndComments";
@@ -58,6 +60,7 @@ export {
         EditVideo,
 	VideoList,
         Container,
+        EditAvatar,
 	TweetsList,
         VideoTable,
         AuthLayout,
@@ -71,6 +74,7 @@ export {
         HeaderSection,
 	ChannelHeader, 
 	InfiniteScroll,
+	UploadingVideo,
 	ChangePassword, 
 	GetImagePreview,
 	ChannelNavigate,
