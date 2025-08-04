@@ -2,6 +2,7 @@ import Logo from "./logo";
 import Like from "./like";
 import Edit from "./edit";
 import Login from "./login";
+import Video from "./video";
 import Input from "./input";
 import Input2 from "./input2";
 import Avatar from "./avatar";
@@ -18,9 +19,12 @@ import TweetsList from "./tweetsList";
 import AuthLayout from "./authLayout";
 import LoginPopup from "./loginPopup";
 import Sidebar from "./header/sideBar";
+import Description from "./description";
 import UploadVideo from "./uploadVideo";
+import CommentList from "./commentsList";
 import NoVideosFound from "./noVideoFound";
 import TogglePublish from "./togglePublish";
+import InfiniteScroll from "./infiniteScroll";
 import ChangePassword from "./changePassword";
 import TweetAndComment from "./tweetAndComments";
 import EditPersonalInfo from "./editPersonalInfo";
@@ -41,6 +45,7 @@ export {
 	Edit,
 	Input,
 	Login,
+	Video,
 	Input2,
 	Navbar,
 	Avatar, 
@@ -57,12 +62,15 @@ export {
         VideoTable,
         AuthLayout,
 	LoginPopup,
+	Description,
         UploadVideo,
+	CommentList,
         StatsSection,
 	TogglePublish,
 	NoVideosFound, 
         HeaderSection,
 	ChannelHeader, 
+	InfiniteScroll,
 	ChangePassword, 
 	GetImagePreview,
 	ChannelNavigate,
@@ -72,8 +80,4 @@ export {
 	NoSubscribersFound,
 	NoSubscriptionFound,
         SearchForSmallScreen,
-	CommentList,
-	Video,
-	Description,
-	InfiniteScroll,
 };
