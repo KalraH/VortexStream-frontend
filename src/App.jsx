@@ -3,23 +3,29 @@ import { Toaster } from "react-hot-toast";
 import { useDispatch } from "react-redux";
 import { Route, Routes } from "react-router-dom";
 import { getCurrentUser } from "./store/slices/auth.slice";
-import { AuthLayout, Login, SignUp } from "./components/index";
-import { EditPersonalInfo, ChangePassword, Layout } from "./components";
+import { 
+	Login, 
+	Layout, 
+	SignUp, 
+	AuthLayout, 
+	ChangePassword, 
+	EditPersonalInfo, 
+} from "./components/index";
 import {
 	History,
 	Channel,
-	ChannelVideos,
-	ChannelTweets,
+	HomePage,
 	LikedVideos,
 	VideoDetail,
-	ChannelSubscribers,
-	MySubscriptions,
-	AdminDashboard,
 	EditChannel,
-	HomePage,
 	SearchVideos,
-	TermsAndConditions,
+	ChannelVideos,
+	ChannelTweets,
+	AdminDashboard,
 	ChannelPlaylist,
+	MySubscriptions,
+	ChannelSubscribers,
+	TermsAndConditions,
 } from "./pages";
 
 function App() {
