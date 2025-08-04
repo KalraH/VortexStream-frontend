@@ -1,5 +1,5 @@
 import React from "react";
-import Input from "../Input";
+import Input from "../input";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 

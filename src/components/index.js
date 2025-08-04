@@ -1,10 +1,12 @@
-import Logo from "./Logo";
-import Button from "./Button";
-import Search from "./Header/Search";
-import SearchForSmallScreen from "./SearchForSmallScreen";
+import Logo from "./logo";
+import Input from "./input";
+import Button from "./button";
+import Search from "./header/search";
+import SearchForSmallScreen from "./searchForSmallScreen";
 
 export {
         Logo,
+	Input,
         Button,
         Search,
         SearchForSmallScreen,

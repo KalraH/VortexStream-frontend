@@ -1,7 +1,7 @@
 import { IoMdLogOut } from "react-icons/io";
 import { useSelector, useDispatch } from "react-redux";
 import { NavLink, useNavigate } from "react-router-dom";
-import { userLogout } from "../../store/Slices/authSlice";
+import { userLogout } from "../../store/slices/authSlice";
 import { BiHistory, BiLike, CiSettings, HiOutlineVideoCamera, IoFolderOutline, RiHome6Line, TbUserCheck } from "../icons";
 
 function Sidebar() {
