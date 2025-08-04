@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { IoMdLogOut } from "react-icons/io";
 import { useSelector, useDispatch } from "react-redux";
 import { NavLink, useNavigate } from "react-router-dom";
-// import { userLogout } from "../../store/Slices/authSlice.js";
+import { userLogout } from "../../store/Slices/authSlice.js";
 import { Search, Button, Logo, SearchForSmallScreen } from "../index.js";
 import { IoCloseCircleOutline, BiLike, CiSearch, HiOutlineVideoCamera, SlMenu } from "../icons.js";
 
