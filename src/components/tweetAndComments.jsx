@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./button";
+import { Button } from "./index";
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
 import { createTweet } from "../store/slices/tweet.slice";

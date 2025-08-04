@@ -2,8 +2,8 @@ import React from "react";
 import { ImBin } from "./icons.js";
 
 function DeleteConfirmation({ 
-	onCancel, 
 	onDelete, 
+	onCancel, 
 	comment, 
 	tweet, 
 	video 

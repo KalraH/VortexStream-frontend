@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
-import { Logo, Button, Input } from "./index";
 import { useNavigate } from "react-router-dom";
-import GetImagePreview from "./getImagePreview.jsx";
 import { useDispatch, useSelector } from "react-redux";
 import LoginSkeleton from "../skeleton/login.skeleton.jsx";
+import { Logo, Button, Input, GetImagePreview } from "./index";
 import { createAccount, userLogin } from "../store/slices/auth.slice.js";
 
 function SignUp() {

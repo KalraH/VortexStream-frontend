@@ -4,8 +4,8 @@ import { useForm } from "react-hook-form";
 import { Logo, Button, Input } from "./index";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import LoginSkeleton from "../skeleton/login.skeleton.jsx";
-import { getCurrentUser, userLogin } from "../store/slices/auth.slice.js";
+import LoginSkeleton from "../skeleton/login.skeleton";
+import { getCurrentUser, userLogin } from "../store/slices/auth.slice";
 
 function Login() {
         const {
