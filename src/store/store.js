@@ -1,11 +1,13 @@
-import likeSlice from "./Slices/likeSlice.js";
-import tweetSlice from "./Slices/tweetSlice.js";
+import likeSlice from "./slices/like.slice.js";
+import tweetSlice from "./slices/tweet.slice.js";
 import { configureStore } from "@reduxjs/toolkit";
-import dashboardSlice from "./Slices/dashboard.js";
-import commentSlice from "./Slices/commentSlice.js";
-import authSliceReducer from "./Slices/authSlice.js";
-import userSliceReducer from "./Slices/userSlice.js";
-import playlistSlice from "./Slices/playlistSlice.js";
+import dashboardSlice from "./slices/dashboard.slice.js";
+import commentSlice from "./slices/comment.slice.js";
+import authSliceReducer from "./slices/auth.slice.js";
+import userSliceReducer from "./slices/user.slice.js";
+import playlistSlice from "./slices/playlist.slice.js";
+import videoSliceReducer from "./slices/video.slice.js";
+import subscriptionSlice from "./slices/subscription.slice.js";
 
 const store = configureStore({
 	reducer: {
@@ -15,7 +17,9 @@ const store = configureStore({
 		user: userSliceReducer,
 		auth: authSliceReducer,
                 playlist: playlistSlice,
+		video: videoSliceReducer,
                 dashboard: dashboardSlice,
+                subscription: subscriptionSlice,
 	},
 });
 
