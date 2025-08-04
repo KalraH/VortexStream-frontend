@@ -24,7 +24,6 @@ export const createAccount = createAsyncThunk("register", async (data) => {
 			"/users/register",
 			formData
 		);
-		console.log(response.data);
 		toast.success("Registered successfully!!!");
 		return response.data;
 	} catch (error) {

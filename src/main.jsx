@@ -1,6 +1,6 @@
 import "./index.css";
-import App from "./App.jsx";
-import store from "./store/store.js";
+import App from "./App";
+import store from "./store/store";
 import { Provider } from "react-redux";
 import ReactDOM from "react-dom/client";
 import React, { StrictMode } from "react";

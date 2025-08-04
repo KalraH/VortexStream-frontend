@@ -1,4 +1,4 @@
-import HomeSkeleton from "../skeleton/homeSkeleton";
+import HomeSkeleton from "../skeleton/home.skeleton";
 import { useDispatch, useSelector } from "react-redux";
 import { VideoList, Container } from "../components/index";
 import InfiniteScroll from "react-infinite-scroll-component";

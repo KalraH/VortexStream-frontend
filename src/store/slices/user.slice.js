@@ -30,7 +30,6 @@ export const getWatchHistory = createAsyncThunk("getWatchHistory", async () => {
                 );
                 return response.data.data;
         } catch (error) {
-                console.log(error);
                 toast.error(error?.response?.data?.error);
                 throw error;
         }

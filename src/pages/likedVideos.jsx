@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import HomeSkeleton from "../skeleton/homeSkeleton";
+import HomeSkeleton from "../skeleton/home.skeleton";
 import { useDispatch, useSelector } from "react-redux";
 import { getLikedVideos } from "../store/slices/like.slice";
 import { makeVideosNull } from "../store/slices/video.slice";

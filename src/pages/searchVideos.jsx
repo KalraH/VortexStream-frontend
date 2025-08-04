@@ -1,6 +1,6 @@
 import { FaFilter } from "react-icons/fa";
 import React, { useEffect, useState } from "react";
-import HomeSkeleton from "../skeleton/homeSkeleton";
+import HomeSkeleton from "../skeleton/home.skeleton";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { useSelector, useDispatch } from "react-redux";
 import { NoVideosFound, VideoList } from "../components/index";

@@ -1,5 +1,5 @@
 import React from "react";
-import { ImBin } from "./icons.js";
+import { ImBin } from "./icons";
 
 function DeleteConfirmation({ 
 	onDelete, 

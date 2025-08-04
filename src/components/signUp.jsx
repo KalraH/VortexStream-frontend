@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import LoginSkeleton from "../skeleton/login.skeleton.jsx";
+import LoginSkeleton from "../skeleton/login.skeleton";
 import { Logo, Button, Input, GetImagePreview } from "./index";
-import { createAccount, userLogin } from "../store/slices/auth.slice.js";
+import { createAccount, userLogin } from "../store/slices/auth.slice";
 
 function SignUp() {
 	const {

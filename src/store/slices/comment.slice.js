@@ -14,7 +14,6 @@ export const createAComment = createAsyncThunk(
 	"createAComment",
 	async ({ videoId, content }) => {
 		try {
-			console.log({ videoId, content });
 			const response = await axiosInstance.post(
 				`/comments/${videoId}`,
 				{
@@ -54,7 +53,6 @@ export const deleteAComment = createAsyncThunk(
 				`/comments/c/${commentId}`
 			);
 			toast.success(response.data.message);
-			console.log(response.data.data);
 			return response.data.data;
 		} catch (error) {
 			toast.error(error?.response?.data?.error);

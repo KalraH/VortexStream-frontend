@@ -21,7 +21,7 @@ function ChannelTweets() {
                                         key={tweet?._id}
                                         avatar={
                                                 tweet?.owner?.avatar
-                                                        .secure_url
+                                                        ?.secure_url
                                         }
                                         content={tweet?.content}
                                         createdAt={tweet?.createdAt}
