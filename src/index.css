@@ -10,7 +10,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 html {
-	overflow-x: hidden;
+        overflow-x: hidden;
 }
 ::-webkit-scrollbar {
         width: 0;
@@ -18,16 +18,18 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-        background-color: #7c3aed; 
-	border-radius: 6px;
-	border: 2px solid #0e0f0f; 
+        background-color: #7c3aed;
+        border-radius: 6px;
+        border: 2px solid #0e0f0f;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background-color: #a78bfa; 
+        background-color: #a78bfa;
 }
 
-html, body, #root {
+html,
+body,
+#root {
         margin: 0;
         padding: 0;
         height: 100%;

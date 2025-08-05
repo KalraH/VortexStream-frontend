@@ -4,20 +4,20 @@ import { useNavigate } from "react-router-dom";
 import { LoginPopup } from "../components/index";
 
 function AuthLayout({ children, authentication }) {
-	const navigate = useNavigate();
-	const authStatus = useSelector((state) => state.auth.status);
+        const navigate = useNavigate();
+        const authStatus = useSelector((state) => state.auth.status);
 
-	useEffect(() => {
-		if (!authentication && authStatus !== authentication) {
-			return;
-		}
-	}, [authStatus, authentication, navigate]);
+        useEffect(() => {
+                if (!authentication && authStatus !== authentication) {
+                        return;
+                }
+        }, [authStatus, authentication, navigate]);
 
-	if (authentication && authStatus !== authentication) {
-		return <LoginPopup />;
-	}
+        if (authentication && authStatus !== authentication) {
+                return <LoginPopup />;
+        }
 
-	return children;
+        return children;
 }
 
 export default AuthLayout;

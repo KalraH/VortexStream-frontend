@@ -10,17 +10,17 @@ import dashboardSlice from "./slices/dashboard.slice";
 import subscriptionSlice from "./slices/subscription.slice";
 
 const store = configureStore({
-	reducer: {
-		like: likeSlice,
+        reducer: {
+                like: likeSlice,
                 tweet: tweetSlice,
                 comment: commentSlice,
-		user: userSliceReducer,
-		auth: authSliceReducer,
+                user: userSliceReducer,
+                auth: authSliceReducer,
                 playlist: playlistSlice,
-		video: videoSliceReducer,
+                video: videoSliceReducer,
                 dashboard: dashboardSlice,
                 subscription: subscriptionSlice,
-	},
+        },
 });
 
 export default store;

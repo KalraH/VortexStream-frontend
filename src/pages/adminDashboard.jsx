@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { deleteAVideo } from "../store/slices/video.slice";
-import { getChannelStats, getChannelVideos } from "../store/slices/dashboard.slice";
 import {
-	Navbar,
+        getChannelStats,
+        getChannelVideos,
+} from "../store/slices/dashboard.slice";
+import {
+        Navbar,
         Spinner,
         EditVideo,
         Container,

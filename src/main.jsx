@@ -7,11 +7,11 @@ import React, { StrictMode } from "react";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-	<Provider store={store}>
-		<BrowserRouter>
-			<StrictMode>
-				<App />
-			</StrictMode>
-		</BrowserRouter>
-	</Provider>
+        <Provider store={store}>
+                <BrowserRouter>
+                        <StrictMode>
+                                <App />
+                        </StrictMode>
+                </BrowserRouter>
+        </Provider>
 );

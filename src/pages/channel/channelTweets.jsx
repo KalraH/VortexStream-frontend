@@ -20,8 +20,7 @@ function ChannelTweets() {
                                 <TweetsList
                                         key={tweet?._id}
                                         avatar={
-                                                tweet?.owner?.avatar
-                                                        ?.secure_url
+                                                tweet?.owner?.avatar?.secure_url
                                         }
                                         content={tweet?.content}
                                         createdAt={tweet?.createdAt}

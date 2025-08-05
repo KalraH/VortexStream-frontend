@@ -17,7 +17,7 @@ function ChannelSubscribers() {
                 }
         }, [dispatch, channelId]);
 
-	if (subscribers?.length === 0) {
+        if (subscribers?.length === 0) {
                 return <NoSubscribersFound />;
         }
 
@@ -25,8 +25,7 @@ function ChannelSubscribers() {
                 <>
                         {subscribers?.map((subscriber) => (
                                 <Link
-                                        key={subscriber?.subscribedChannel
-?._id}
+                                        key={subscriber?.subscribedChannel?._id}
                                         className="flex border-b border-slate-500 px-3 py-1 justify-between items-center text-white"
                                 >
                                         <div className="flex gap-3 items-center">
@@ -40,7 +39,6 @@ function ChannelSubscribers() {
                                                         channelName={
                                                                 subscriber
                                                                         ?.subscribedChannel
-
                                                                         ?.userName
                                                         }
                                                 />
@@ -64,7 +62,8 @@ function ChannelSubscribers() {
                                         </div>
                                         <div>
                                                 <Button className="bg-lime-500 text-black text-xs py-1 px-2">
-                                                        {subscriber?.subscribedChannel
+                                                        {subscriber
+                                                                ?.subscribedChannel
                                                                 ?.subscribedToSubscriber
                                                                 ? "Subscribed"
                                                                 : "subscribe"}

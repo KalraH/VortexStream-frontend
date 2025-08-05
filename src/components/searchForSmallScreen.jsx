@@ -1,5 +1,5 @@
 import React from "react";
-import {Button, Input} from "./index";
+import { Button, Input } from "./index";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { IoCloseCircleOutline } from "react-icons/io5";
